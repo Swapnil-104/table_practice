@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,500,700');
+body {
+   margin: 0;
+    background-color: rgb(25, 20, 20);
+    font-weight: 300px 500px 700px;
+    font-family:Poppins, sans-serif;
+ }
+nav {
+    background-color: rgb(25, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 25px;
+  }
+nav img {
+    height: 60px;
+    width: 60px;
+  }
+nav ul {
+       display: flex;
+       gap: 15px;
+       list-style: none;
+      }
+nav li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+nav li a:hover{
+    color: rgb(30, 215, 96);
+}
+#download{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+}
+h1{
+  font-weight: 700;
+  line-height: 2;
+}
+h2{
+  font-weight: 500;
+  line-height: 3;
+}
+button{
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  margin-bottom: 35px;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+  scale: 1.02;
+  max-width: 650px;
+  width: 100%;
+}
+#difference-table {
+background-color: rgb(246,246,246);
+  text-align: center;
+  padding: 20px 40px;
+}
+#difference-table h1 { 
+  font-weight: 700;
+  padding: 0px 50px;
+}
+#difference-table table {
+  max-width: 500px;
+   margin: auto;
+  padding: 20px 45px;
+}
+table th{
+  font-weight: 300;
+}
+table td{
+  border-bottom: 1px solid rgb(170, 170, 170);
+}
+.check{
+  color: rgb(30, 215, 96);
+  font-size: 30px;
+}
+.xmark{
+  color: rgb(255, 0, 0);
+  font-size: 30px;
+}
+#difference-table button{
+   background-color: rgb(25, 20, 20);
+      padding: 12px 40px;
+      font-weight: 500;
+      border-radius: 20px;
+      cursor: pointer;
+      font-family: inherit;
+      color: rgb(255, 255, 255);
+}
+#preium{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    margin: 0;
+}
+article{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    padding: 20px 100px;
+}  
+@media (max-width: 650px) {
+    article{
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(auto, auto);
+        padding: 20px;
+}
+}
+.price-cards{
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 5px rgb(170, 170, 170);
+    padding: 20px;
+}
+.card-header{
+    border-bottom: 1px solid rgb(170, 170, 170);
+}
+.card-header span{
+display: inline-block;
+width: auto;
+font-size: 0.75rem;
+background-color: rgb(13, 144, 234);
+color: rgb(255, 255, 255);
+padding: 5px;
+}

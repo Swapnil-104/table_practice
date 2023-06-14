@@ -1,0 +1,63 @@
+/* introduction of today
+some more selector
+attribute selector
+and more
+border\\margin \\padding*/
+
+ 
+  /*h1{
+   border: 2px solid red;///// border show outer line of padding 
+   padding: 10px 20px 30px 40px; /////green line show in padding
+   margin: 20px 30px 40px 50px;/////area blue covered by heading line//and margin in orange line
+    top right botton left
+ } 
+h2{
+   padding-left: 10px;
+   margin: 10px 30px;
+   color: rgba(16, 149, 30, 0.311);
+}
+h3{
+   border: 0px solid green;
+   color: rgb(1, 20, 33);
+   padding: 10px 20px 30px;
+   margin: 30px 5px 40px;
+}
+h4{
+   color: #ff00cc17;
+   padding: 10px 30px;
+   padding-bottom: 60px;
+   margin: 10px 30px 50px;
+}
+h5{
+   border: 5px solid rgba(226, 12, 12, 0.962);
+   color: #000000;
+   padding-bottom: 10px;
+   padding: 30px 40px 50px;
+}   */
+
+/* rgb=red green blue 0-255 limit
+rgba red green blue alpha
+hex=#rrbbgg 0-f limit//hex= hexadecimal.
+#014cc8f color code
+hsl= hue saturation lightness
+hsl limit hue o-360, saturation in %, lightness in%.
+0 is red,120 is green, and 240 is blue.
+css units= px,em,rem,%vh,vw.
+
+
+*/ 
+#uli ::marker{
+   color: red;
+}
+ol ::marker{
+   color: yellow;
+}
+#li1 ::marker{
+   color: green;
+}
+#ul1 .commonLi ::marker{
+   color: blue;
+}
+ol ::marker{
+   color: yellow;
+}

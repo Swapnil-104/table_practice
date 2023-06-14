@@ -1,0 +1,41 @@
+#navbar{
+    display: flex;     
+    justify-content: space-evenly;
+    border: 3px solid red;
+    border-radius: 20px;
+    border-bottom: 30px;
+}
+img{
+    width: 30px;
+}
+
+div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40px; 
+    padding: 2px 0px;
+    border-bottom: 1px solid green;
+}
+div :hover{ 
+
+    width: 100%;
+}
+article{
+   display: flex;
+   flex-direction: column;
+    width: 300px;
+}
+#main-img{
+    width: 300px;
+    border-radius: 10px;
+}
+#header-article{
+    display: flex;
+    justify-content: space-between;
+}
+#rating-block{
+    display: inline;
+}
+

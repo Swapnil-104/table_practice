@@ -1,0 +1,124 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.nav{
+    margin: auto;
+    display: flex;
+    padding: 35px 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul li{
+    list-style: none;
+    margin: 0 20px;
+    display: inline-block;
+    position: relative;
+}
+.nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: blueviolet;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.nav ul li:hover::after{
+    width: 100%;
+}
+p{
+    font-size: 18px;
+
+} */
+/* h1{
+    border: 5px solid red;
+    padding: 20px;
+    margin: 50px;
+}
+a[href*='google']{
+    color: green;
+    font-size: 20px;
+}
+p{
+    border: 2px solid red;
+    display: block;
+    margin-top: 90px;
+    margin-bottom: 510px;
+    margin-left: 190px;
+    padding-top: 70px;
+} */
+/* ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:;
+} */
+/* body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } */
+
+/* .desktop-first{
+display: flex;
+flex-direction: row;
+gap: 1em;
+}
+@media (max-width: 700px){
+    flex-flow: ;
+    
+} */
+
+    
+/* .container{
+    width: 500px;
+position: absolute;
+background-color: sienna;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+.green{
+ background-color: green;
+}
+.red{
+ background-color: red;
+}
+.black{
+        background-color: black;
+}
+.blue{
+    background-color: blue;
+} */
+/* *{
+    background-image: url(./th\ 2.jpg);
+    background-size: cover; */
+    /* background-position: center;
+    padding: 50px;
+    color: #fff;
+    text-align: center; */
+/* }
+.container{
+    width: 100%; */
+   
+    /* background-color: aqua; */
+    /* width: 95%;
+    height: 75px; */
+    /* margin: auto;
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ } */
+ 
+
